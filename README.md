@@ -1,11 +1,13 @@
-# Doc Path
+# README
 
-## Windows:
+## Doc Path
+
+### Windows
 
 ```C:\ProgramData\Blackmagic Design\DaVinci Resolve\Fusion\Scripts```
 
-Scripts Installation Path
+## Scripts Installation Path
 
-## Windows
+### Windows
 
 ```C:\ProgramData\Blackmagic Design\DaVinci Resolve\Support\Developer\Scripting\README.txt```
