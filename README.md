@@ -4,10 +4,10 @@
 
 ### Windows
 
-```C:\ProgramData\Blackmagic Design\DaVinci Resolve\Fusion\Scripts```
+```C:\ProgramData\Blackmagic Design\DaVinci Resolve\Support\Developer\Scripting\README.txt```
 
 ## Scripts Installation Path
 
 ### Windows
 
-```C:\ProgramData\Blackmagic Design\DaVinci Resolve\Support\Developer\Scripting\README.txt```
+```C:\ProgramData\Blackmagic Design\DaVinci Resolve\Fusion\Scripts```
