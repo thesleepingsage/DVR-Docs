@@ -1,4 +1,4 @@
-Updated as of 9 May 2022
+Updated as of 21 July 2022
 ----------------------------
 In this package, you will find a brief introduction to the Scripting API for DaVinci Resolve Studio. Apart from this README.txt file, this package contains folders containing the basic import
 modules for scripting access (DaVinciResolve.py) and some representative examples.
@@ -171,6 +171,8 @@ Project
   GetRenderResolutions(format, codec)             --> [{Resolution}]     # Returns list of resolutions applicable for the given render format (string) and render codec (string). Returns full list of resolutions if no argument is provided. Each element in the list is a dictionary with 2 keys "Width" and "Height".
   RefreshLUTList()                                --> Bool               # Refreshes LUT List
   GetUniqueId()                                   --> string             # Returns a unique ID for the project item
+  InsertAudioToCurrentTrackAtPlayhead(mediaPath,  --> Bool               # Inserts the media specified by mediaPath (string) with startOffsetInSamples (int) and durationInSamples (int) at the playhead on a selected track on the Fairlight page. Returns True if successful, otherwise False.
+          startOffsetInSamples, durationInSamples)
 
 MediaStorage
   GetMountedVolumeList()                          --> [paths...]         # Returns list of folder paths corresponding to mounted volumes displayed in Resolve’s Media Storage.
@@ -478,11 +480,6 @@ exportType can be one of the following constants:
     - resolve.EXPORT_DRT
     - resolve.EXPORT_EDL
     - resolve.EXPORT_FCP_7_XML
-    - resolve.EXPORT_FCPXML_1_3
-    - resolve.EXPORT_FCPXML_1_4
-    - resolve.EXPORT_FCPXML_1_5
-    - resolve.EXPORT_FCPXML_1_6
-    - resolve.EXPORT_FCPXML_1_7
     - resolve.EXPORT_FCPXML_1_8
     - resolve.EXPORT_FCPXML_1_9
     - resolve.EXPORT_FCPXML_1_10
@@ -492,6 +489,7 @@ exportType can be one of the following constants:
     - resolve.EXPORT_TEXT_TAB
     - resolve.EXPORT_DOLBY_VISION_VER_2_9
     - resolve.EXPORT_DOLBY_VISION_VER_4_0
+    - resolve.EXPORT_DOLBY_VISION_VER_5_1
 exportSubtype can be one of the following enums:
     - resolve.EXPORT_NONE
     - resolve.EXPORT_AAF_NEW
@@ -503,6 +501,16 @@ Please note that exportSubType is a required parameter for resolve.EXPORT_AAF an
 When exportType is resolve.EXPORT_AAF, valid exportSubtype values are resolve.EXPORT_AAF_NEW and resolve.EXPORT_AAF_EXISTING.
 When exportType is resolve.EXPORT_EDL, valid exportSubtype values are resolve.EXPORT_CDL, resolve.EXPORT_SDL, resolve.EXPORT_MISSING_CLIPS and resolve.EXPORT_NONE.
 Note: Replace 'resolve.' when using the constants above, if a different Resolve class instance name is used.
+
+Unsupported exportType types
+---------------------------------
+Starting with DaVinci Resolve 18.1, the following export types are not supported:
+    - resolve.EXPORT_FCPXML_1_3
+    - resolve.EXPORT_FCPXML_1_4
+    - resolve.EXPORT_FCPXML_1_5
+    - resolve.EXPORT_FCPXML_1_6
+    - resolve.EXPORT_FCPXML_1_7
+
 
 Looking up Timeline item properties
 -----------------------------------
