@@ -1,4 +1,4 @@
-Updated as of 21 July 2022
+Updated as of 22 Nov 2022
 ----------------------------
 In this package, you will find a brief introduction to the Scripting API for DaVinci Resolve Studio. Apart from this README.txt file, this package contains folders containing the basic import
 modules for scripting access (DaVinciResolve.py) and some representative examples.
@@ -19,7 +19,7 @@ DaVinci Resolve scripting requires one of the following to be installed (for all
 
     Lua 5.1
     Python 2.7 64-bit
-    Python 3.6 64-bit
+    Python >= 3.6 64-bit
 
 
 Using a script
@@ -303,7 +303,7 @@ Timeline
                                                                          # "sourceClipsFolders": string, list of Media Pool folder objects to search for source clips if the media is not present in current folder
 
   Export(fileName, exportType, exportSubtype)     --> Bool               # Exports timeline to 'fileName' as per input exportType & exportSubtype format.
-                                                                         # Refer to section "Looking up timeline exports properties" for information on the parameters.
+                                                                         # Refer to section "Looking up timeline export properties" for information on the parameters.
   GetSetting(settingName)                         --> string             # Returns value of timeline setting (indicated by settingName : string). Check the section below for more information.
   SetSetting(settingName, settingValue)           --> Bool               # Sets timeline setting (indicated by settingName : string) to the value (settingValue : string). Check the section below for more information.
   InsertGeneratorIntoTimeline(generatorName)      --> TimelineItem       # Inserts a generator (indicated by generatorName : string) into the timeline.
