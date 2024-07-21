@@ -1,6 +1,12 @@
 # README
 
-## Doc Path
+## Introduction
+
+This gist is a public online upload of the Resolve Scripting API Documentation file. You can see new functions and modifications at each Resolve Update, via [git revisions](https://gist.github.com/X-Raym/2f2bf453fc481b9cca624d7ca0e19de8/revisions) features.
+
+Note: maintaining this page is a manual process.
+
+## DaVinci Resolve Scripting API Documentation File Path
 
 ### Windows
 
