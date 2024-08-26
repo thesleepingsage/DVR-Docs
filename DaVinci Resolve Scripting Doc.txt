@@ -1,4 +1,4 @@
-Last Updated: 11 July 2024
+Last Updated: 16 July 2024
 ----------------------------
 In this package, you will find a brief introduction to the Scripting API for DaVinci Resolve Studio. Apart from this README.txt file, this package contains folders containing the basic import
 modules for scripting access (DaVinciResolve.py) and some representative examples.
@@ -448,6 +448,10 @@ TimelineItem
   ExportLUT(exportType, path)                     --> Bool               # Exports LUTs from tiItem referring to value passed in 'exportType' (enum) for LUT size. Refer to. 'ExportLUT notes' section for possible values.
                                                                          # Saves generated LUT in the provided 'path' (string). 'path' should include the intended file name.
                                                                          # If an empty or incorrect extension is provided, the appropriate extension (.cube/.vlt) will be appended at the end of the path.
+  GetLinkedItems()                                --> [TimelineItems]    # Returns a list of linked timeline items.
+  GetTrackTypeAndIndex()                          --> [trackType, trackIndex] # Returns a list of two values that correspond to the TimelineItem's trackType (string) and trackIndex (int) respectively.
+                                                                           # trackType is one of {"audio", "video", "subtitle"}
+                                                                           # 1 <= trackIndex <= Timeline.GetTrackCount(trackType)
 
 Gallery
   GetAlbumName(galleryStillAlbum)                 --> string             # Returns the name of the GalleryStillAlbum object 'galleryStillAlbum'.
