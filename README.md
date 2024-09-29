@@ -14,7 +14,7 @@ Note: maintaining this page is a manual process.
 
 ### MacOS
 
-```Macintosh HD/Library/Application Support/Blackmagic Design/Support/Developer/Scripting/README.txt```
+```Macintosh HD/Library/Application Support/Blackmagic Design/Developer/Scripting/README.txt```
 
 ## Scripts Installation Path
 
