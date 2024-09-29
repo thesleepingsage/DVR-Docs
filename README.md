@@ -14,10 +14,14 @@ Note: maintaining this page is a manual process.
 
 ### MacOS
 
-```Macintosh HD/Library/Application Support/Blackmagic Design/Developer/Scripting/```
+```Macintosh HD/Library/Application Support/Blackmagic Design/Support/Developer/Scripting/README.txt```
 
 ## Scripts Installation Path
 
 ### Windows
 
-```C:\ProgramData\Blackmagic Design\DaVinci Resolve\Fusion\Scripts```
+```C:\ProgramData\Blackmagic Design\DaVinci Resolve\Fusion\Scripts\```
+
+### MacOS
+
+```Macintosh HD/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/```
