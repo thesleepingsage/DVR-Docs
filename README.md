@@ -6,7 +6,7 @@ This gist is a public online upload of the Resolve Scripting API Documentation f
 
 Note: maintaining this page is a manual process.
 
-## Custom Easy-to-Read HTML Version (New: 2024-24-10)
+## Custom Easy-to-Read HTML Version (New!)
 
 Just made and uploaded a custom version of the `README.txt`, in HTML, with nice style and formatting, for easy reading.
 
