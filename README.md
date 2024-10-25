@@ -12,6 +12,8 @@ Just made and uploaded a custom version of the `README.txt`, in HTML, with nice 
 
 Here is the link: **https://extremraym.com/cloud/resolve-scripting-doc/**
 
+<a href="https://extremraym.com/cloud/resolve-scripting-doc/"><img src="https://www.extremraym.com/cloud/resolve-scripting-doc/xr-resolve-script-doc-ogimage.png"></a>
+
 ## DaVinci Resolve Scripting API Documentation File Path
 
 ### Windows
