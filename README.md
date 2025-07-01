@@ -33,3 +33,4 @@ Here is the link: **https://extremraym.com/cloud/resolve-scripting-doc/**
 ### MacOS
 
 ```Macintosh HD/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/```
+# DVR-Docs
