@@ -1,10 +1,10 @@
 {
   "settings": {
-    "title": "DVR",
-    "project": "/thesleepingsage/dvr-docs",
+    "title": "DaVinci Resolve Scripting API",
+    "project": "/thesleepingsage/davinci-resolve-scripting-api",
     "type": "repo",
     "description": "",
-    "docsRepoUrl": "https://github.com/thesleepingsage/dvr-docs",
+    "docsRepoUrl": "https://github.com/thesleepingsage/davinci-resolve-scripting-api",
     "folders": [],
     "excludeFolders": [
       "archive",
